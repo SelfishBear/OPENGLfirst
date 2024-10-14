@@ -146,7 +146,7 @@ int main() {
         fps++;
         if(currentTime - previousTime >= 1.0)
         {
-            std::string title = "MRPENIS FPS: " + std::to_string(fps);
+            std::string title = "My FPS: " + std::to_string(fps);
             glfwSetWindowTitle(window, title.c_str());
             fps = 0;
             previousTime = currentTime;
